@@ -18,7 +18,7 @@ export default function DefaultLayout({
         {children}
       </main>
       <footer  className="container mx-auto max-w-7xl px-6 flex-grow pt-8 mt-12 bg-gray-100">
-          <div className="px-8 md:px-12 flex justify-between gap-8 items-end    my-8">
+          <div className="px-8 md:px-12 flex flex-col md:flex-row justify-between gap-8 items-end    my-8">
             <div className="max-w-lg">
               <p className="text-4xl font-bold mb-2">
                 Contact Us
@@ -31,18 +31,18 @@ export default function DefaultLayout({
             <div>
 
               
-        <div className="text-right">
-          <p className="text-2xl mb-4" >Lhakpa Daw Tailoring</p>
-         
-          
-                <p>
-                      Phone Number: +975 17601264/ +975 17374294 / +975 77273241
-              </p>
-              <p>
-                Email: lhakpadaw248@gmail.com
-              </p>
-            </div>
-          </div>
+            <div className="text-right">
+              <p className="text-2xl mb-4" >Lhakpa Daw Tailoring</p>
+            
+              
+                    <p>
+                          Phone Number: +975 17601264/ +975 17374294 / +975 77273241
+                  </p>
+                  <p>
+                    Email: lhakpadaw248@gmail.com
+                  </p>
+                </div>
+              </div>
           </div>
       </footer>
     </div>
