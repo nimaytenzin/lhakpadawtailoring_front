@@ -28,8 +28,7 @@ export default function IndexPage() {
           </h1>
     
       <p className="mt-4">
-        Lhakpa Daw Tailorings, established in 1987, is a pioneer in traditional ceremonial tents and tensile membrane structures. We mass-produce tailored items like national flags, uniforms, and decorative event items. We are known for our quality and innovation, our skilled craftsmen <span style={{ color: "violet" }}>blend tradition with modern advancements</span> .
-      </p>
+Lhakpa Daw Tailorings, founded in 1987, is a trailblazer in crafting traditional ceremonial tents and tensile membrane structures. We specialize in the mass production of custom-made items, including national flags, uniforms, and decorative event pieces. Renowned for our quality and innovation, our skilled craftsmen seamlessly blend tradition with modern advancements to deliver you not just a product but an art.      </p>
         </div>
 
       </section>
@@ -115,14 +114,7 @@ export default function IndexPage() {
       </section>
 
 
-      <section className="px-8 md:px-12 mt-12 mb-4">
-        <p>
-          Contact Us
-        </p>
-        <p>
-
-        </p>
-      </section>
+      
     </DefaultLayout>
   );
 }
